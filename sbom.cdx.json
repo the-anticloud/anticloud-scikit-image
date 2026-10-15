@@ -1,0 +1,432 @@
+{
+ "bomFormat": "CycloneDX",
+ "specVersion": "1.5",
+ "serialNumber": "urn:uuid:9a34e60a-9150-5583-b49a-c4ab7f5b0417",
+ "version": 1,
+ "metadata": {
+  "timestamp": "2026-10-06T07:24:08Z",
+  "component": {
+   "type": "application",
+   "name": "SCIKIT_IMAGE",
+   "version": "83b357604d34",
+   "bom-ref": "pkg:generic/anticloud/SCIKIT_IMAGE@83b357604d34",
+   "purl": "pkg:generic/anticloud/SCIKIT_IMAGE@83b357604d34",
+   "licenses": [
+    {
+     "license": {
+      "id": "MIT"
+     }
+    }
+   ]
+  },
+  "properties": [
+   {
+    "name": "anticloud:source-commit",
+    "value": "REMOVED_CONTAMINATED_SHA_PENDING_API_RESOLVE"
+   },
+   {
+    "name": "anticloud:source-url",
+    "value": "https://github.com/the-anticloud/OPENMRS_CORE.git"
+   },
+   {
+    "name": "anticloud:tier",
+    "value": "tier-agent"
+   }
+  ]
+ },
+ "components": [
+  {
+   "type": "library",
+   "name": "dev",
+   "version": "unspecified",
+   "purl": "pkg:generic/dev",
+   "bom-ref": "conda/dev@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "conda-forge",
+   "version": "unspecified",
+   "purl": "pkg:generic/conda-forge",
+   "bom-ref": "conda/conda-forge@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": "unspecified",
+   "purl": "pkg:generic/numpy",
+   "bom-ref": "conda/numpy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": "unspecified",
+   "purl": "pkg:generic/scipy",
+   "bom-ref": "conda/scipy@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "networkx",
+   "version": "unspecified",
+   "purl": "pkg:generic/networkx",
+   "bom-ref": "conda/networkx@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pillow",
+   "version": "unspecified",
+   "purl": "pkg:generic/pillow",
+   "bom-ref": "conda/pillow@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "imageio",
+   "version": "unspecified",
+   "purl": "pkg:generic/imageio",
+   "bom-ref": "conda/imageio@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "tifffile",
+   "version": "unspecified",
+   "purl": "pkg:generic/tifffile",
+   "bom-ref": "conda/tifffile@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "packaging",
+   "version": "unspecified",
+   "purl": "pkg:generic/packaging",
+   "bom-ref": "conda/packaging@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "lazy-loader",
+   "version": "unspecified",
+   "purl": "pkg:generic/lazy-loader",
+   "bom-ref": "conda/lazy-loader@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "meson-python",
+   "version": "unspecified",
+   "purl": "pkg:generic/meson-python",
+   "bom-ref": "conda/meson-python@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ninja",
+   "version": "unspecified",
+   "purl": "pkg:generic/ninja",
+   "bom-ref": "conda/ninja@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "Cython",
+   "version": "unspecified",
+   "purl": "pkg:generic/Cython",
+   "bom-ref": "conda/Cython@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pythran",
+   "version": "unspecified",
+   "purl": "pkg:generic/pythran",
+   "bom-ref": "conda/pythran@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "spin",
+   "version": "unspecified",
+   "purl": "pkg:generic/spin",
+   "bom-ref": "conda/spin@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python-build",
+   "version": "unspecified",
+   "purl": "pkg:generic/python-build",
+   "bom-ref": "conda/python-build@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pooch",
+   "version": "unspecified",
+   "purl": "pkg:generic/pooch",
+   "bom-ref": "conda/pooch@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pre-commit",
+   "version": "unspecified",
+   "purl": "pkg:generic/pre-commit",
+   "bom-ref": "conda/pre-commit@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ipython",
+   "version": "unspecified",
+   "purl": "pkg:generic/ipython",
+   "bom-ref": "conda/ipython@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "asv",
+   "version": "unspecified",
+   "purl": "pkg:generic/asv",
+   "bom-ref": "conda/asv@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sphinx",
+   "version": "unspecified",
+   "purl": "pkg:generic/sphinx",
+   "bom-ref": "conda/sphinx@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sphinx-gallery",
+   "version": "unspecified",
+   "purl": "pkg:generic/sphinx-gallery",
+   "bom-ref": "conda/sphinx-gallery@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "numpydoc",
+   "version": "unspecified",
+   "purl": "pkg:generic/numpydoc",
+   "bom-ref": "conda/numpydoc@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sphinx-copybutton",
+   "version": "unspecified",
+   "purl": "pkg:generic/sphinx-copybutton",
+   "bom-ref": "conda/sphinx-copybutton@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sphinx-togglebutton",
+   "version": "unspecified",
+   "purl": "pkg:generic/sphinx-togglebutton",
+   "bom-ref": "conda/sphinx-togglebutton@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "matplotlib-base",
+   "version": "unspecified",
+   "purl": "pkg:generic/matplotlib-base",
+   "bom-ref": "conda/matplotlib-base@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "dask",
+   "version": "unspecified",
+   "purl": "pkg:generic/dask",
+   "bom-ref": "conda/dask@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pandas",
+   "version": "unspecified",
+   "purl": "pkg:generic/pandas",
+   "bom-ref": "conda/pandas@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "seaborn",
+   "version": "unspecified",
+   "purl": "pkg:generic/seaborn",
+   "bom-ref": "conda/seaborn@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "myst-parser",
+   "version": "unspecified",
+   "purl": "pkg:generic/myst-parser",
+   "bom-ref": "conda/myst-parser@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "intersphinx-registry",
+   "version": "unspecified",
+   "purl": "pkg:generic/intersphinx-registry",
+   "bom-ref": "conda/intersphinx-registry@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ipywidgets",
+   "version": "unspecified",
+   "purl": "pkg:generic/ipywidgets",
+   "bom-ref": "conda/ipywidgets@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "ipykernel",
+   "version": "unspecified",
+   "purl": "pkg:generic/ipykernel",
+   "bom-ref": "conda/ipykernel@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "plotly",
+   "version": "unspecified",
+   "purl": "pkg:generic/plotly",
+   "bom-ref": "conda/plotly@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "python-kaleido",
+   "version": "unspecified",
+   "purl": "pkg:generic/python-kaleido",
+   "bom-ref": "conda/python-kaleido@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "scikit-learn",
+   "version": "unspecified",
+   "purl": "pkg:generic/scikit-learn",
+   "bom-ref": "conda/scikit-learn@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "sphinx-design",
+   "version": "unspecified",
+   "purl": "pkg:generic/sphinx-design",
+   "bom-ref": "conda/sphinx-design@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pydata-sphinx-theme",
+   "version": "unspecified",
+   "purl": "pkg:generic/pydata-sphinx-theme",
+   "bom-ref": "conda/pydata-sphinx-theme@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "PyWavelets",
+   "version": "unspecified",
+   "purl": "pkg:generic/PyWavelets",
+   "bom-ref": "conda/PyWavelets@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest-doctestplus",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest-doctestplus",
+   "bom-ref": "conda/pytest-doctestplus@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "SimpleITK",
+   "version": "unspecified",
+   "purl": "pkg:generic/SimpleITK",
+   "bom-ref": "conda/SimpleITK@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pyamg",
+   "version": "unspecified",
+   "purl": "pkg:generic/pyamg",
+   "bom-ref": "conda/pyamg@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "astropy-base",
+   "version": "unspecified",
+   "purl": "pkg:generic/astropy-base",
+   "bom-ref": "conda/astropy-base@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest",
+   "bom-ref": "conda/pytest@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest-cov",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest-cov",
+   "bom-ref": "conda/pytest-cov@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest-pretty",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest-pretty",
+   "bom-ref": "conda/pytest-pretty@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest-localserver",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest-localserver",
+   "bom-ref": "conda/pytest-localserver@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pytest-faulthandler",
+   "version": "unspecified",
+   "purl": "pkg:generic/pytest-faulthandler",
+   "bom-ref": "conda/pytest-faulthandler@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "only",
+   "version": "unspecified",
+   "purl": "pkg:generic/only",
+   "bom-ref": "conda/only@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "pip",
+   "version": "unspecified",
+   "purl": "pkg:generic/pip",
+   "bom-ref": "conda/pip@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "docstub",
+   "version": "0.7.0rc0",
+   "purl": "pkg:generic/docstub@0.7.0rc0",
+   "bom-ref": "conda/docstub@0.7.0rc0"
+  },
+  {
+   "type": "library",
+   "name": "numpy",
+   "version": ">=2.1",
+   "purl": "pkg:pypi/numpy@2.1",
+   "bom-ref": "pypi/numpy@>=2.1"
+  },
+  {
+   "type": "library",
+   "name": "scipy",
+   "version": ">=1.15",
+   "purl": "pkg:pypi/scipy@1.15",
+   "bom-ref": "pypi/scipy@>=1.15"
+  },
+  {
+   "type": "library",
+   "name": "emscripten",
+   "version": "unspecified",
+   "purl": "pkg:pypi/emscripten",
+   "bom-ref": "pypi/emscripten@unspecified"
+  },
+  {
+   "type": "library",
+   "name": "include_directories",
+   "version": "unspecified",
+   "purl": "pkg:generic/include_directories",
+   "bom-ref": "native/include_directories@unspecified"
+  }
+ ],
+ "source": {
+  "git": {
+   "head": null,
+   "url": null,
+   "sha_unverified": true,
+   "note": "contamination removed; resolve via GitHub API before quoting"
+  }
+ }
+}
